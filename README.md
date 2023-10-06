@@ -44,7 +44,7 @@ Here's an overview of the project directory:
 To utilize or build upon this project, please be sure to:
 
 1. Clone the repository: `git clone [repo_link]`
-2. Install necessary Python packages: `pip install -r requirements.txt` (Please create a requirements.txt with the necessary packages and versions)
+2. Install necessary Python packages: `pip install -r requirements.txt`
 3. Navigate through the `local_eda.ipynb` for insights into the EDA process.
 4. Navigate through `submission.ipynb` to understand the model building, training, and prediction steps.
 
