@@ -18,7 +18,7 @@ For more details about Coursera's Data Science Coding Challenge, you can visit [
 
 ## 🏆 My Results
 
-I'm thrilled to share that my submission outperformed 93% of all submissions, with a final rank in the 93rd percentile and a score of 76%, while the median score was 64.78%. Subsequently, I was placed among the top 15 in the competition! 🎉
+I'm thrilled to share that my submission outperformed **`93%`** of all submissions, with a final rank in the **`93rd percentile`** and a score of **`76%`**, while the median score was `64.78%`. Subsequently, I was placed among the  **`top 10%`** in the competition! 🎉. This is my profile on [Coursera website](https://www.coursera.org/learner/hussain-san) 
 
 <img src="https://github.com/hussainsan/Loan-Prediction-Challenge/blob/main/data/results.png?raw=true" alt="My Results" width="400"/>
 
