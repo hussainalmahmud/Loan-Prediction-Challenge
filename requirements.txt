@@ -5,3 +5,6 @@ Scikit-learn
 keras
 maplotlib
 seaborn
+tensorflow
+keras
+xgboost
