@@ -5,10 +5,12 @@ on:
     paths:
     - 'local_eda.ipynb'
     - 'submission.ipynb'
+    - 'requirements.txt'
   pull_request:
     paths:
     - 'local_eda.ipynb'
     - 'submission.ipynb'
+    - 'requirements.txt'
 
 jobs:
   test:
