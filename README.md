@@ -1,3 +1,5 @@
+Here I will put the test badge
+
 # Data Science Coding Challenge: Loan Default Prediction 🚀
 
 Welcome to my project submission for the Data Science Coding Challenge organized by [Coursera](https://www.coursera.org/)! In this challenge, we tackled a prevalent machine learning problem in the financial industry - predicting loan defaulters.
