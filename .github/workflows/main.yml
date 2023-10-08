@@ -1,0 +1,38 @@
+name: Test Jupyter Notebooks
+
+on: 
+  push:
+    paths:
+    - 'local_eda.ipynb'
+    - 'submission.ipynb'
+  pull_request:
+    paths:
+    - 'local_eda.ipynb'
+    - 'submission.ipynb'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
+      
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install nbconvert[jupyter] jupyter
+        pip install -r requirements.txt
+      
+    - name: Execute local_eda.ipynb
+      run: |
+        jupyter nbconvert --to notebook --execute local_eda.ipynb --allow-errors --output local_eda.ipynb
+      
+    - name: Execute submission.ipynb
+      run: |
+        jupyter nbconvert --to notebook --execute submission.ipynb --allow-errors --output submission.ipynb
